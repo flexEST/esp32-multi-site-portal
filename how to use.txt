@@ -1,0 +1,47 @@
+
+You can change:
+
+- WiFi SSID
+- WiFi password
+- Active webpage mode
+
+Settings are saved using **ESP32 Preferences** and persist after reboot.
+
+---
+
+## Hardware Requirements
+
+- ESP32 development board
+- USB cable
+- Arduino IDE or PlatformIO
+
+---
+
+## Libraries Used
+
+- WiFi.h
+- WebServer.h
+- DNSServer.h
+- Preferences.h
+
+---
+
+## How It Works
+
+1. ESP32 creates a WiFi network.
+2. DNS server redirects all requests to the ESP32.
+3. The web server hosts the captive portal pages.
+4. User interactions are logged and stored.
+
+---
+
+## Disclaimer
+
+This project is intended **for educational and testing purposes only**.  
+Do not use it on networks or devices without permission.
+
+---
+
+## Author
+
+Flex
